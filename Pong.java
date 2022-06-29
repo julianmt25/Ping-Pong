@@ -28,7 +28,7 @@ public class Pong
     public Pong()
     {
         // Instanzvariable initialisieren
-        view = new View ("Bierpong");
+        view = new View ("Ping-Pong");
         hintergrund = new Rectangle (-1.0,0.0,600.0,400.0,Color.white);
         schlaeger1 = new Rectangle (10.0,175.0,5.0,50.0,Color.red);
         schlaeger2 = new Rectangle (580.0,175.0,5.0,50.0,Color.red);
